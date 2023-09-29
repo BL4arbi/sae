@@ -3,7 +3,7 @@ from rplidar import RPLidar
 import numpy as np
 
 
-PORT_NAME = 'COM3' #changer le port com selon le plug
+PORT_NAME = 'COM3' #changer le port com selon le pluge
 lidar = RPLidar(PORT_NAME)
 
 
