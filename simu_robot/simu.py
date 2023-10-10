@@ -89,7 +89,7 @@ cols = WIDTH // NODE_SIZE
 rows = HEIGHT // NODE_SIZE
 
 def create_grid():
-    """grille avec des nœuds et leurs voisins"""
+    """grille avec des nœuds et leurs voisinsee"""
     grid = [[Node(i, j) for j in range(rows)] for i in range(cols)]
     for i in range(cols):
         for j in range(rows):
